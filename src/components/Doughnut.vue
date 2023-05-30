@@ -1,5 +1,5 @@
 <template>
-    <Doughnut :data="data" :options="options" />
+    <Doughnut :data="data" :options="options" width="80px"/>
   </template>
   
   <script>

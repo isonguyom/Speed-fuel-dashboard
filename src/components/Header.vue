@@ -129,35 +129,34 @@
 }
 
 @media screen and (max-width: 767px) {
-.Topbar {
-  align-items: start;
-  flex-wrap: wrap;
-}
+  .Topbar {
+    align-items: start;
+    flex-wrap: wrap;
+  }
 
-.brand-name {
-  width: 100%;
-}
+  .brand-name {
+    width: 100%;
+  }
 
-.nav-menu {
-  flex-flow: column;
-  align-items: start;
-}
+  .nav-menu {
+    flex-flow: column;
+    align-items: start;
+  }
 
-.menu2 {
-  text-align: right;
-}
+  .menu2 {
+    text-align: right;
+  }
 
-.nav-menu .nav-item {
-  display: block;
-  padding: 5px 0;
-  margin-right: 0;
-}
+  .nav-menu .nav-item {
+    display: block;
+    padding: 5px 0;
+    margin-right: 0;
+  }
 
-.nav-link,
-.nav-btn {
-  font-size: 0.7rem;
-  text-align: left;
+  .nav-link,
+  .nav-btn {
+    font-size: 0.7rem;
+    text-align: left;
+  }
 }
-}
-
 </style>

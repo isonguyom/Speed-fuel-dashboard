@@ -27,9 +27,6 @@ export const data = {
         y: {
             max: 30,
             min: 0,
-            title: {
-                text: "Hello"
-            }
         },
         x: {
             max: 24,

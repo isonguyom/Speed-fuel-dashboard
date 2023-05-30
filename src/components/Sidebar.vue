@@ -180,7 +180,7 @@ ul {
 }
 
 .tab-group li.active button {
-  background-color: #315AFF;
+  background-color: #315aff;
   color: var(--header-color);
 }
 

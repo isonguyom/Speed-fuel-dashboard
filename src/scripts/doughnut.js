@@ -3,12 +3,13 @@ export const data = {
     datasets: [
       {
         backgroundColor: ['#ee3440', '#00bc4b'],
-        data: [40, 20]
+        border: 'none',
+        data: [30, 70]
       }
     ]
   }
   
-  // export const options = {
-  //   responsive: true,
-  //   maintainAspectRatio: false
-  // }
+  export const options = {
+    responsive: true,
+    legend: { display: false },
+  };

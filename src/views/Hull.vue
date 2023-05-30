@@ -8,7 +8,7 @@
     </ul>
     <div class="stats-wrapper">
       <div class="stats">
-        <p>Last hull cleaning date:...........30days</p>
+        <p class="top-text">Last hull cleaning date: <span>30days</span></p>
         <div class="stats-inner">
           <h3>Total Fuel consumption data</h3>
           <p>Service speed <span>12 kn</span></p>
@@ -37,10 +37,7 @@
           <h3>Data Quality Statistics</h3>
           <div class="chart-wrapper">
             <div class="chart-inner">
-              <!-- <Doughnut /> -->
-              <!-- <div class="chart"></div>
-              <p><span class="faulty">.</span>Faulty Data</p>
-              <p><span class="good">.</span>Good Data</p> -->
+              <Doughnut />
             </div>
             <div>
               <h5>Fuel Data Number</h5>
@@ -121,6 +118,13 @@ export default {
   display: flex;
 }
 
+.top-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .stats {
   padding: 20px 2%;
   width: 32%;
@@ -181,29 +185,16 @@ h5 {
   margin-left: 0;
 }
 
-/* .chart {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 10px solid #00bc4b;
+.chart-inner {
+  width: 50%;
 }
 
-.faulty {
-  color: #ee3440;
-}
 
-.good {
-  color: #00bc4b;
-} */
 
 .graph {
   background-color: var(--body-bg);
   width: 68%;
   padding: 10px 2%;
-}
-.stats p hr {
-  display: none;
-  /* border: 1px dotted gray; */
 }
 
 @media screen and (max-width: 767px) {
