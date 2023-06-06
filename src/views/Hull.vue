@@ -67,17 +67,19 @@
       </div>
       <div class="graph">
         <Graph />
+        <Graph2 id="graph2"/>
       </div>
     </div>
   </main>
 </template>
 <script>
 import Graph from "../components/Graph.vue";
+import Graph2 from "../components/Graph2.vue";
 import Doughnut from "../components/Doughnut.vue";
 
 export default {
   name: "Hull",
-  components: { Graph, Doughnut },
+  components: { Graph, Graph2, Doughnut },
 };
 </script>
 
@@ -195,6 +197,10 @@ h5 {
   background-color: var(--body-bg);
   width: 68%;
   padding: 10px 2%;
+}
+
+#graph2 {
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 767px) {

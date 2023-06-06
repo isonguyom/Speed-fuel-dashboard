@@ -28,10 +28,6 @@ export const data = {
             max: 30,
             min: 0,
         },
-        x: {
-            max: 24,
-            min: 0,
-        }
     },
   };
   
